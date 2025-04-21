@@ -29,13 +29,13 @@ namespace practica
             lc.Mostrar(listBox_Numeros);
             textBoxNum.Clear();
         }
-        private void button_Eliminar_Click(object sender, EventArgs e)
+        /*private void button_Eliminar_Click(object sender, EventArgs e)
         {
             lc.Eliminar(Convert.ToInt32(textBoxNum.Text));
             listBox_Numeros.Items.Clear();
             lc.Mostrar(listBox_Numeros);
             textBoxNum.Clear(); 
-        }
+        }*/
 
 
         private void textBoxNum_TextChanged(object sender, EventArgs e)
