@@ -9,6 +9,7 @@ namespace practica.clases
     internal class Nodo
     {
         private int numero;
+        
         private Nodo siguiente;
 
         public int Numero { get =>  numero; set => numero = value;}

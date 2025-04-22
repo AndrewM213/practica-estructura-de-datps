@@ -35,6 +35,7 @@
             this.listaEnlazadaSimpleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaEnlazadaCircularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaEnlazadaDobleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaEnlazadaDobleAnalisisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +71,8 @@
             this.operacionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.listaEnlazadaSimpleToolStripMenuItem,
             this.listaEnlazadaCircularToolStripMenuItem,
-            this.listaEnlazadaDobleToolStripMenuItem});
+            this.listaEnlazadaDobleToolStripMenuItem,
+            this.listaEnlazadaDobleAnalisisToolStripMenuItem});
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
             this.operacionesToolStripMenuItem.Text = "Operaciones";
@@ -78,23 +80,30 @@
             // listaEnlazadaSimpleToolStripMenuItem
             // 
             this.listaEnlazadaSimpleToolStripMenuItem.Name = "listaEnlazadaSimpleToolStripMenuItem";
-            this.listaEnlazadaSimpleToolStripMenuItem.Size = new System.Drawing.Size(238, 26);
+            this.listaEnlazadaSimpleToolStripMenuItem.Size = new System.Drawing.Size(281, 26);
             this.listaEnlazadaSimpleToolStripMenuItem.Text = "Lista enlazada simple";
             this.listaEnlazadaSimpleToolStripMenuItem.Click += new System.EventHandler(this.listaEnlazadaSimpleToolStripMenuItem_Click);
             // 
             // listaEnlazadaCircularToolStripMenuItem
             // 
             this.listaEnlazadaCircularToolStripMenuItem.Name = "listaEnlazadaCircularToolStripMenuItem";
-            this.listaEnlazadaCircularToolStripMenuItem.Size = new System.Drawing.Size(238, 26);
+            this.listaEnlazadaCircularToolStripMenuItem.Size = new System.Drawing.Size(281, 26);
             this.listaEnlazadaCircularToolStripMenuItem.Text = "Lista enlazada circular";
             this.listaEnlazadaCircularToolStripMenuItem.Click += new System.EventHandler(this.listaEnlazadaCircularToolStripMenuItem_Click);
             // 
             // listaEnlazadaDobleToolStripMenuItem
             // 
             this.listaEnlazadaDobleToolStripMenuItem.Name = "listaEnlazadaDobleToolStripMenuItem";
-            this.listaEnlazadaDobleToolStripMenuItem.Size = new System.Drawing.Size(238, 26);
+            this.listaEnlazadaDobleToolStripMenuItem.Size = new System.Drawing.Size(281, 26);
             this.listaEnlazadaDobleToolStripMenuItem.Text = "Lista enlazada doble";
             this.listaEnlazadaDobleToolStripMenuItem.Click += new System.EventHandler(this.listaEnlazadaDobleToolStripMenuItem_Click);
+            // 
+            // listaEnlazadaDobleAnalisisToolStripMenuItem
+            // 
+            this.listaEnlazadaDobleAnalisisToolStripMenuItem.Name = "listaEnlazadaDobleAnalisisToolStripMenuItem";
+            this.listaEnlazadaDobleAnalisisToolStripMenuItem.Size = new System.Drawing.Size(281, 26);
+            this.listaEnlazadaDobleAnalisisToolStripMenuItem.Text = "Lista enlazada doble analisis";
+            this.listaEnlazadaDobleAnalisisToolStripMenuItem.Click += new System.EventHandler(this.listaEnlazadaDobleAnalisisToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -121,6 +130,7 @@
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaSimpleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaCircularToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaDobleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listaEnlazadaDobleAnalisisToolStripMenuItem;
     }
 }
 
